@@ -1,0 +1,264 @@
+header {
+            background: linear-gradient(135deg, #6e48aa, #9d50bb);
+            color: white;
+            padding: 20px;
+            text-align: center;
+            margin-bottom: 30px;
+            border-radius: 8px;
+            box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+        }
+        
+        h1 {
+            margin: 0;
+            font-size: 2.5em;
+        }
+        
+        h2 {
+            color: #333;
+            margin-top: 40px;
+            padding-bottom: 10px;
+            border-bottom: 2px solid #eee;
+        }
+        
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-bottom: 40px;
+            box-shadow: 0 2px 15px rgba(0,0,0,0.1);
+            overflow: hidden;
+        }
+        
+        th, td {
+            padding: 12px 15px;
+            text-align: left;
+        }
+        
+        img {
+            max-width: 250px;
+            max-height: 100px;
+            display: block;
+            margin: 0 auto;
+            border-radius: 4px;
+        }
+        
+        /* Tabla 1: Frutas Tropicales - Estilo tropical */
+        table:nth-of-type(1) {
+            background-color: #fff;
+            border-radius: 10px;
+        }
+        
+        table:nth-of-type(1) thead {
+            background: linear-gradient(to right, #0184ff, #ebebeb);
+            color: black;
+        }
+        
+        table:nth-of-type(1) tr:nth-child(even) {
+            background-color: #fff5f5;
+        }
+        
+        table:nth-of-type(1) tr:hover {
+            background-color: #ffe30d;
+        }
+        
+        /* Tabla 2: Animales Salvajes - Estilo safari */
+        table:nth-of-type(2) {
+            background-color: #f9f3e6;
+            border: 2px solid #8b5a2b;
+        }
+        
+        table:nth-of-type(2) thead {
+            background-color: #5d4037;
+            color: #fff;
+        }
+        
+        table:nth-of-type(2) tr:nth-child(even) {
+            background-color: #efebe9;
+        }
+        table:nth-of-type(2) td {
+            border-bottom: 1px dashed #8b5a2b;
+        }
+        table:nth-of-type(2) tr:hover{
+            background-color: #c4a417;
+        }
+
+        
+        /* Tabla 3: Dispositivos Tecnológicos - Estilo futurista */
+        table:nth-of-type(3) {
+            background-color: #e3f2fd;
+            border: 1px solid #003663;
+            border-radius: 13px;
+        }
+        
+        table:nth-of-type(3) thead {
+            background: linear-gradient(to right, #0d47a1, #1976d2);
+            color: rgb(0, 0, 0);
+        }
+        
+        table:nth-of-type(3) tr:hover {
+            background-color: #9bd0fc;
+        }
+        
+        table:nth-of-type(3) td {
+            border-right: 1px solid #bbdefb;
+        }
+        
+        /* Tabla 4: Deportes Populares - Estilo dinámico */
+        table:nth-of-type(4) {
+            background-color: rgb(195, 238, 195);
+            border: 1px solid black;
+            
+        }
+        
+        table:nth-of-type(4) thead {
+            background-color: #fd7f7d;
+            color: rgb(0, 0, 0);
+            padding-top: 10px;
+            border: 1px solid black; 
+        }
+        
+        table:nth-of-type(4) tr:nth-child(odd) {
+            background-color: #36bd58;
+            border: 1px solid black;
+        }
+        
+        table:nth-of-type(4) tr:hover{
+            background-color: #0c862b; 
+        }
+        
+        /* Tabla 5: Países del Mundo - Estilo elegante */
+        table:nth-of-type(5) {
+            background-color: #fff;
+            border-radius: 10px;
+        }
+        
+        table:nth-of-type(5) thead {
+            background-color: #1f1d1d;
+            color: white;
+        }
+        
+        table:nth-of-type(5) td {
+            border-bottom: 1px solid #e0e0e0;
+        }
+        
+        table:nth-of-type(5) tr:hover {
+            background-color: #ff7c48;
+        }
+        
+        
+        /* Tabla 6: Instrumentos Musicales - Estilo artístico */
+        table:nth-of-type(6) {
+            background-color: #f3e5f5;
+            border: 1px solid #ce93d8;
+        }
+        
+        table:nth-of-type(6) thead {
+            background-color: #a135be;
+            color: white;
+        }
+        
+        table:nth-of-type(6) tr:nth-child(even) {
+            background-color: #e1bee7;
+        }
+
+        table:nth-of-type(6) tr:hover{
+            background-color: #aa4ce9; 
+        }
+
+        
+        /* Tabla 7: Comida Rápida - Estilo divertido */
+        table:nth-of-type(7) {
+            background-color: #fff8e1;
+            border-radius: 10px;
+        }
+        
+        table:nth-of-type(7) thead {
+            background-color: #fb8c00;
+            color: white;
+        }
+        
+        table:nth-of-type(7) td {
+            border-bottom: 1px dotted #ffb74d;
+        }
+
+        table:nth-of-type(7) tr:hover{
+            background-color: #eeca53; 
+        }
+
+        
+        /* Tabla 8: Youtubers - Estilo lujoso */
+        table:nth-of-type(8) {
+            background-color: #000;
+            color: white;
+        }
+        
+        table:nth-of-type(8) thead {
+            background-color: #b71c1c;
+            color: white;
+        }
+        
+        table:nth-of-type(8) tr:nth-child(even) {
+            background-color: #212121;
+        }
+        
+        table:nth-of-type(8) img {
+            border: 1px solid #444;
+        }
+        
+        table:nth-of-type(8) tr:hover{
+            background-color: #5d1000a8; 
+        }
+        
+        /* Tabla 9: Monumentos Famosos - Estilo clásico */
+        table:nth-of-type(9) {
+            background-color: #f5f5f5;
+            border-radius: 10px;
+            font-style: italic;
+        }
+        
+        table:nth-of-type(9) thead {
+            background-color: #616161;
+            color: white;
+            font-style: normal;
+        }
+        
+        table:nth-of-type(9) td {
+            border-bottom: 1px solid #e0e0e0;
+        }
+
+        table:nth-of-type(9) tr:hover{
+            background-color: gold; 
+        }   
+
+        /* Tabla 10: Bandas Reconocidas - Estilo clásico */
+        table:nth-of-type(10) {
+            background-color: #f6e6ff;
+            border-bottom: outset #00007c;
+            
+        }
+        
+        table:nth-of-type(10) thead {
+            background-color: #000360b9;
+            color: white;
+            font-style: normal;     
+        }
+        
+        table:nth-of-type(10) td {
+            border-bottom: 1px solid #000506;
+        }
+
+        table:nth-of-type(10) tr:hover{
+            background-color: rgb(74, 98, 255); 
+        }
+        
+        /* Efectos generales para todas las tablas */
+        th {
+            font-weight: 600;
+            text-transform: uppercase;
+            font-size: 0.9em;
+            letter-spacing: 0.5px;
+        }
+        
+        tr {
+            transition: all 0.3s ease;
+        }
+        
